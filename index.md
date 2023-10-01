@@ -1,15 +1,38 @@
 ---
 layout: default
-title: Student Blog
+title: Jayden's Site
 ---
 
+## <font color = "#90e0ef"> About Me </font>
 
-## Build you Home Page here 
-This is about your journey. Start now!!!
+<br>
+My name is Jayden Chen, and I'm an 11th grader at Del Norte High School. Welcome to my blog!!
 
-## Overview of Hacks, Study and Tangibles
-Blogging in GitHub pages is a way to learn and code at the same time. 
+<br>
+Here is my Freeform drawing!
 
-- Plans, Lists, [Scrum Boards](https://clickup.com/blog/scrum-board/) help you to track key events, show progress and record time.  Effort is a big part of your class grade.  Show plans and time spent!
-- [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
-- Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder. 
+
+<img src="images/freeformjaydenchen.png" alt="My freeform" height="800" width="750">
+
+<br>
+This is me and my partner, Will! Prior to our parternship in the pair project, we've played volleyball together for multiple years.
+
+<img src="images/blockw:will.png" alt="blockw/will" height="800" width="750">
+
+<br>
+In my free time, I like to play volleyball, go to the beach, and play video games.
+
+<br>
+I've been playing volleyball for about 4 years, inside and outside of school. I'm currently playing for at a volleyball club called Coast, where I get to compete with some of the highest level players. This year is also my third year playing for Del Norte's Varsity team.
+
+<br>
+<img src="images/20230404_224425-ac3e.jpg" height="800" width="600">
+<br>
+<br>
+Recently I've been pretty hooked on a video game called fortnite. I wish I could say that I was really good at it, but my aim is pretty terrible so I don't win too often.
+
+<br>
+
+<img src="images/Screenshot 2023-08-25 at 9.12.16 AM.png" height="500" width="500">
+
+[def]: eek1_ChallengesFaced.m
