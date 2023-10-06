@@ -26,6 +26,7 @@ Fill out the form below to calculate your daily calorie requirement.
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calorie Calculator</title>
 </head>
+
 <body>
     <h1>Calorie Calculator</h1>
     <form id="calorieForm">
