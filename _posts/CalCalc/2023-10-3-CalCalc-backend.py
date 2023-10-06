@@ -1,7 +1,3 @@
-from flask import Flask, request, jsonify
-
-app = Flask(__name__)
-
 # Constants for the Harris-Benedict Equation
 BMR_MALE = 88.362
 BMR_FEMALE = 447.593
@@ -29,20 +25,16 @@ def calculate_calories(age, gender, weight, height, activity_level):
     daily_calories = bmr * activity_multiplier
     return daily_calories
 
-@app.route('/calculate-calories', methods=['POST'])
-def calculate_calories_api():
-    data = request.get_json()
-    age = data.get('age')
-    gender = data.get('gender')
-    weight = data.get('weight')
-    height = data.get('height')
-    activity_level = data.get('activity')
+# Input values
+age = int(input("Enter your age: "))
+gender = input("Enter your gender (male/female): ")
+weight = float(input("Enter your weight in kilograms: "))
+height = float(input("Enter your height in centimeters: "))
+activity_level = input("Enter your activity level (sedentary/lightly active/moderately active/very active/extra active): ")
 
-    try:
-        calories = calculate_calories(age, gender, weight, height, activity_level)
-        return jsonify({'calories': calories})
-    except ValueError as e:
-        return jsonify({'error': str(e)}), 400
+# Calculate daily calorie requirements
+calories = calculate_calories(age, gender, weight, height, activity_level)
 
-if __name__ == '__main__':
-    app.run(debug=True)  # Run the Flask app
+# Display the result
+print(f"Your daily calorie requirement is approximately {calories:.2f} calories.")
+

@@ -20,65 +20,73 @@ For our passion project we decided to create a program that calculates the numbe
 
 Fill out the form below to calculate your daily calorie requirement.
 
-<form id="calorieForm">
-    <label for="age">Age:</label>
-    <input type="number" id="age" required><br><br>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calorie Calculator</title>
+</head>
+<body>
+    <h1>Calorie Calculator</h1>
+    <form id="calorieForm">
+        <label for="age">Age:</label>
+        <input type="number" id="age" required><br><br>
+        
+        <label for="gender">Gender:</label>
+        <select id="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+        
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" required><br><br>
+        
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" required><br><br>
+        
+        <label for="activity">Activity Level:</label>
+        <select id="activity" required>
+            <option value="sedentary">Sedentary</option>
+            <option value="lightly active">Lightly Active</option>
+            <option value="moderately active">Moderately Active</option>
+            <option value="very active">Very Active</option>
+            <option value="extra active">Extra Active</option>
+        </select><br><br>
+        
+        <input type="submit" value="Calculate">
+    </form>
 
-    <label for="gender">Gender:</label>
-    <select id="gender" required>
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-    </select><br><br>
+    <div id="result"></div>
 
-    <label for="weight">Weight (kg):</label>
-    <input type="number" id="weight" required><br><br>
+    <script>
+        document.getElementById("calorieForm").addEventListener("submit", function(event) {
+            event.preventDefault();
 
-    <label for="height">Height (cm):</label>
-    <input type="number" id="height" required><br><br>
+            const age = parseFloat(document.getElementById("age").value);
+            const gender = document.getElementById("gender").value;
+            const weight = parseFloat(document.getElementById("weight").value);
+            const height = parseFloat(document.getElementById("height").value);
+            const activity = document.getElementById("activity").value;
 
-    <label for="activity">Activity Level:</label>
-    <select id="activity" required>
-        <option value="sedentary">Sedentary</option>
-        <option value="lightly active">Lightly Active</option>
-        <option value="moderately active">Moderately Active</option>
-        <option value="very active">Very Active</option>
-        <option value="extra active">Extra Active</option>
-    </select><br><br>
-
-    <input type="submit" value="Calculate">
-</form>
-
-<div id="result"></div>
-
-<script>
-    document.getElementById("calorieForm").addEventListener("submit", function (event) {
-        event.preventDefault();
-
-        const age = parseFloat(document.getElementById("age").value);
-        const gender = document.getElementById("gender").value;
-        const weight = parseFloat(document.getElementById("weight").value);
-        const height = parseFloat(document.getElementById("height").value);
-        const activity = document.getElementById("activity").value;
-
-        // Send a POST request to the Python backend
-        fetch("/Users/Jayden.Chen/vscode/csp/_posts/CalCalc/2023-10-3-CalCalc-backend.py", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ age, gender, weight, height, activity }),
-        })
-            .then((response) => response.json())
-            .then((data) => {
-                const resultElement = document.getElementById("result");
-                resultElement.innerHTML = `Your daily calorie requirement is approximately ${data.calories.toFixed(2)} calories.`;
-                resultElement.style.display = "block"; // Display the result
+            // Send a POST request to the Python backend using relative path
+            fetch("/_posts/CalCalc/2023-10-3-CalCalc-backend.py", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ age, gender, weight, height, activity }),
             })
-            .catch((error) => {
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("result").innerHTML = `Your daily calorie requirement is approximately ${data.calories.toFixed(2)} calories.`;
+            })
+            .catch(error => {
                 console.error("Error:", error);
             });
-    });
-</script>
+        });
+    </script>
+</body>
+</html>
 
 
 
