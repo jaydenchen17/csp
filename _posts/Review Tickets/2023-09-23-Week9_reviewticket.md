@@ -8,6 +8,8 @@ type: tangibles
 permalink: /reviewticket/week9
 ---
 
-- Created Calorie Maintenence Calculator Passion Project Home Page and Index
+- API and Model Creation for pp backend, also update main.py
 - Finished Developing Algorithms Team Teach hw
 - Finished Lists and Searches Team Teach hw
+
+## pasion project contributions

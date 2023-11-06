@@ -3,6 +3,23 @@ layout: default
 title: Jayden's Site
 ---
 
+## <font color="#90e0ef">Passion Project</font>
+<head>
+    <style>
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0074d9; /* Background color */
+            color: #000; /* Text color set to black */
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://jaydenchen17.github.io/ppfrontend/" class="button">Click Me</a>
+</body>
 ## <font color = "#90e0ef"> About Me </font>
 
 <br>
