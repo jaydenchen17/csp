@@ -106,7 +106,17 @@ courses: {'compsci': {'week': 18}}
             <td>Median Score: 0.915</td>
             <td>Number Complete: 10 (9 excluding our own team teach)</td>
             <td>Extra Effort Count: 5</td>
-            <td>Key Tangible Assets Count:10</td>
+            <td>Key Tangible Assets Count:10 (9 excluding our own team teach)</td>
         </tr>
     </tbody>
 </table>
+
+## Rating Team Members
+
+- Brandon So: 0.42 Contributed with lesson setup and content as well as speaking
+- Jayden Chen: 0.44 had a lot of contributions such as grading, setting up the lesson, and creating HW hacks
+- Nihar Gupta: 0.4 Collaborated on the HW Hacks
+- Miguel Villa: 0.41 Had decent contributions in speaking and helped with lesson plan
+- Marcus Hernandez: 0.4 Had decent contributions in speaking
+
+## 
