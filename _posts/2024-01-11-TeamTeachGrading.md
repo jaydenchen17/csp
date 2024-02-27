@@ -119,4 +119,3 @@ courses: {'compsci': {'week': 18}}
 - Miguel Villa: 0.41 Had decent contributions in speaking and helped with lesson plan
 - Marcus Hernandez: 0.4 Had decent contributions in speaking
 
-## 
