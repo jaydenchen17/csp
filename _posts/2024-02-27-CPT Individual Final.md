@@ -29,9 +29,8 @@ In this project, my role was to be a frontend developer. I made most of the fron
       </tr>
       <tr>
         <td>Instructions for input from one of the following: the user, a device, an online data stream, a file.</td>
-        <td>We require JWT tokens and credentials for user login, also user input for wagers and betting decisions.
-        <br>
-        ![makedebug]({{site.baseurl}}/images/getbet.png)
+        <td>We require JWT tokens and credentials for user login, also user input for wagers and betting decisions.<br><br>
+        <img src="{{site.baseurl}}/images/getbet.png" alt="Get Bet Image"><br>
         </td>
       </tr>
       <tr>
@@ -50,7 +49,7 @@ In this project, my role was to be a frontend developer. I made most of the fron
         <td>Calls to your student-developed procedure.</td>
         <td>Our procedures for casino features, animations and balance tracking are called throughout the application.
         <br>
-        ![makedebug]({{site.baseurl}}/images/handleuserbalanace.png)
+        <img src="{{site.baseurl}}/images/handleuserbalance.png" alt="Handle User Balance Image">
         </td>
       </tr>
       <tr>
