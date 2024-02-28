@@ -29,7 +29,10 @@ In this project, my role was to be a frontend developer. I made most of the fron
       </tr>
       <tr>
         <td>Instructions for input from one of the following: the user, a device, an online data stream, a file.</td>
-        <td>We require JWT tokens and credentials for user login, also user input for wagers and betting decisions.</td>
+        <td>We require JWT tokens and credentials for user login, also user input for wagers and betting decisions.
+        <br>
+        ![makedebug]({{site.baseurl}}/images/getbet.png)
+        </td>
       </tr>
       <tr>
         <td>Use of at least one list (or other collection type) to represent a collection of data that is stored and used to manage program complexity and help fulfill the users purpose.</td>
@@ -45,7 +48,10 @@ In this project, my role was to be a frontend developer. I made most of the fron
       </tr>
       <tr>
         <td>Calls to your student-developed procedure.</td>
-        <td>Our procedures for user-related functions, casino features, and balance tracking are called throughout the application.</td>
+        <td>Our procedures for casino features, animations and balance tracking are called throughout the application.
+        <br>
+        ![makedebug]({{site.baseurl}}/images/handleuserbalanace.png)
+        </td>
       </tr>
       <tr>
         <td>Instructions for output (tactile, audible, visual, or ) based on input and program functionality.</td>
