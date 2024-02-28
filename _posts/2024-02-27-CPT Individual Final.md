@@ -37,15 +37,15 @@ In this project, my role was to be a frontend developer. I made most of the fron
       </tr>
       <tr>
         <td>At least one procedure that contributed to the program’s intended purpose where you have defined: the name, return type, one or more parameters.</td>
-        <td>We have procedures for user authentication and authorization, which take JWT tokens and user credentials as parameters.</td>
+        <td>We have procedures for user authentication and authorization.</td>
       </tr>
       <tr>
         <td>An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure.</td>
-        <td>Our authentication algorithm meets these requirements by including sequencing (checking JWT token and cookies), and selection (redirecting or allowing to update or delete users based on user or admin status).</td>
+        <td>Our authentication algorithm includes sequencing, selection, and iteration.</td>
       </tr>
       <tr>
         <td>Calls to your student-developed procedure.</td>
-        <td>Our procedures for user-related functions, scores, and messages are called throughout the application.</td>
+        <td>Our procedures for user-related functions, casino features, and balance tracking are called throughout the application.</td>
       </tr>
       <tr>
         <td>Instructions for output (tactile, audible, visual, or ) based on input and program functionality.</td>
