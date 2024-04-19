@@ -19,6 +19,8 @@ Unique code that was created to initialize table and create test data.
 <br>
 <br>
 <br>
+
+## Lists & Dictionaries
 A list as extracted from database as Python objects.
 
 <img src="images/Screenshot 2024-04-19 at 2.00.32 PM.png" alt="rizz">
@@ -33,6 +35,9 @@ Two distinct examples of dictionaries, show Keys/Values using debugger.
 <br>
 <br>
 <br>
+
+## APIs and JSON
+
 Python API code definition for request and response using GET, POST, UPDATE methods. Discuss algorithmic condition used to direct request to appropriate Python method based on request method.
 
 <img src="images/Screenshot 2024-04-19 at 2.04.34 PM.png" alt="mewing">
@@ -67,6 +72,9 @@ In Postman, show the JSON response for error for 404 when providing an unknown u
 <br>
 <br>
 <br>
+
+## Frontend
+
 Response of JSON objects from fetch of GET, POST, and UPDATE methods in frontend.
 
 <img src="images/Screenshot 2024-04-19 at 2.16.20 PM.png" alt="tinga">
