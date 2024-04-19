@@ -1,10 +1,9 @@
 ---
-toc: True
-comments: True
-layout: post
 title: Collegeboard Practice Tri 3 MCQ Blog
+layout: post
 type: tangibles
 courses: {'compsci': {'week': 20}}
+permalink: /collegeboard#3mcqreview
 ---
 
 # Collegeboard 2021 MCQ Practice
